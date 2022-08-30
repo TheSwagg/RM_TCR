@@ -1,0 +1,30 @@
+// 提供了一个常规的终端接口，用于控制非同步通信端口
+    struct termios port_set;
+    if (buadrate_ == 0)
+    {
+        // B115200 115200波特
+        cfsetispeed(&port_set, B115200);   // 设置输入波特率
+        cfsetospeed(&port_set, B115200);   // 设置输出波特率
+    }
+    else if (buadrate_ == 1) 
+    {
+        // B921600 921600波特
+        cfsetispeed(&port_set, B921600);   // 设置输入波特率
+        cfsetospeed(&port_set, B921600);   // 设置输出波特率
+    }
+
+    port_set.c_cflag &= ~PARENB;         //无奇偶校验
+    port_set.c_cflag &= ~CSTOPB;         //停止位:1bit
+    port_set.c_cflag &= ~CSIZE;          //清除数据位掩码
+    port_set.c_cflag |=  CS8;
+    port_set.c_iflag = ~ICANON;
+
+    /*
+        * 参数1: fd为打开的终端文件描述符
+        * 参数2: optional_actions用于控制修改起作用的时间
+        *        TCSANOW：不等数据传输完毕就立即改变属性
+        *        TCSADRAIN：等待所有数据传输结束才改变属性
+        *        TCSAFLUSH：等待所有数据传输结束,清空输入输出缓冲区才改变属性
+        * 参数3: 结构体termios_p中保存了要修改的参数
+    */
+    tcsetattr(fd, TCSANOW, &port_set);             // 将设置应用到串口

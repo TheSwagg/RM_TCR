@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="RM"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\usr\;CMake Files\..\..\..\usr\local\;CMake Files\..\..\..\usr\local\share\;CMake Files\..\..\..\usr\local\share\OpenCV\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/rmtcr/RM/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/rmtcr/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/rmtcr/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/rmtcr/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/rmtcr/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/rmtcr/RM/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/rmtcr/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/rmtcr/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/rmtcr/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/rmtcr/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/rmtcr/RM/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/rmtcr/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/rmtcr/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/rmtcr/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/rmtcr/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RM">
+				<Option output="/home/rmtcr/RM/cmake-build-debug/RM" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rmtcr/RM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/rmtcr/RM/./header"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/rmtcr/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 RM"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/rmtcr/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/rmtcr/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/rmtcr/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RM/fast">
+				<Option output="/home/rmtcr/RM/cmake-build-debug/RM" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rmtcr/RM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/rmtcr/RM/./header"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/rmtcr/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 RM/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/rmtcr/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/rmtcr/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/rmtcr/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/rmtcr/RM/AngleSolver/AngleSolver_2.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/rmtcr/RM/AngleSolver/Filter.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/rmtcr/RM/Armor_recognition/ArmorBox.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/rmtcr/RM/Armor_recognition/ArmorDetector.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/rmtcr/RM/Armor_recognition/ArmorNumClassifier.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/rmtcr/RM/Armor_recognition/LightBar.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/rmtcr/RM/Armor_recognition/findLights.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/rmtcr/RM/Armor_recognition/matchArmors.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/rmtcr/RM/DaHengCamera/DaHengCamera.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/rmtcr/RM/DaHengCamera/DaHengCamera.h">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/rmtcr/RM/Thread/ImageProcess.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/rmtcr/RM/Thread/RemoteController.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/rmtcr/RM/buff_include/BuffAngleSolver.h">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/rmtcr/RM/buff_include/FindBuff.h">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/rmtcr/RM/buff_src/BuffAngleSolver.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/rmtcr/RM/buff_src/FindBuff.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/rmtcr/RM/global/General.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/rmtcr/RM/global/serialport.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/rmtcr/RM/header/AngleSolver_2.h">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/rmtcr/RM/header/Armor.h">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/rmtcr/RM/header/Filter.h">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/rmtcr/RM/header/General.h">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/rmtcr/RM/header/ImageProcess.h">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/rmtcr/RM/header/RemoteController.h">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/rmtcr/RM/header/serialport.h">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/rmtcr/RM/main.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/rmtcr/RM/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/rmtcr/RM/../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/rmtcr/RM/../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/rmtcr/RM/../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/rmtcr/RM/../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
